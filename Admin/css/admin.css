@@ -1,0 +1,40 @@
+/* Admin sidebar styles to match 'Kelola Konten' look */
+:root{
+    --admin-green: #0d6b14; /* main sidebar color */
+    --admin-green-dark: #084d0a; /* active bg */
+}
+.sidebar{
+    background: linear-gradient(180deg, var(--admin-green) 0%, #0b5f11 100%);
+    color: #fff;
+    padding: 28px 18px;
+    height: 100%;
+}
+.sidebar-header{ text-align:center; margin-bottom:22px; }
+.sidebar-header img{ width:90px; height:auto; display:block; margin:0 auto 8px; }
+.sidebar-header h4{ color:#fff; font-weight:700; font-size:24px; margin:0; }
+.nav.flex-column{ gap:10px; }
+.nav-link{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color: rgba(255,255,255,0.9);
+    padding: 10px 14px;
+    border-radius:8px;
+    transition: all .15s ease-in-out;
+    font-size:16px;
+}
+.nav-link i{ font-size:18px; width:22px; text-align:center; }
+.nav-link:hover{ background: rgba(0,0,0,0.12); color:#fff; transform: translateY(-1px); }
+.nav-link.active{
+    background: rgba(0,0,0,0.18);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    color: #fff;
+}
+.nav-link.active i{ color:#fff; }
+.nav-item .badge{ margin-left:6px; }
+
+/* Small screens: keep layout but reduce padding */
+@media (max-width:768px){
+    .sidebar{ padding:20px; }
+    .sidebar-header h4{ font-size:20px; }
+}

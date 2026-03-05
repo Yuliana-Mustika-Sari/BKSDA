@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Surat Izin Masuk Kawasan Konservasi</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; font-size: 11pt; margin: 50px; }
+        .header, .footer { text-align: center; }
+        .header img { max-width: 100px; margin-bottom: 10px; }
+        .content { margin-top: 20px; }
+        .content p { text-align: justify; }
+        .details th, .details td { text-align: left; vertical-align: top; padding: 3px 0; }
+        .conditions ol { margin-left: -20px; padding-left: 20px; }
+        .conditions li { margin-bottom: 5px; text-align: justify; }
+        .signature-area { margin-top: 50px; overflow: auto; }
+        .left-sign { float: left; width: 45%; }
+        .right-sign { float: right; width: 45%; text-align: center; }
+        .meterai { border: 1px solid black; padding: 20px; width: 100px; height: 50px; margin: 10px auto; text-align: center; font-size: 8pt; }
+        .footer-text { margin-top: 20px; font-size: 9pt; }
+        .clear { clear: both; }
+        .page-header { text-align: center; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <p style="margin-bottom: 0;"><strong>KEMENTERIAN LINGKUNGAN HIDUP DAN KEHUTANAN</strong></p>
+        <p style="margin-bottom: 0;"><strong>DIREKTORAT JENDERAL KONSERVASI SUMBER DAYA ALAM DAN EKOSISTEM</strong></p>
+        <p><strong>BALAI KONSERVASI SUMBER DAYA ALAM JAWA TENGAH</strong></p>
+        <p style="margin-top: -10px; font-size: 9pt;">Jl. Dr. Suratmo No. 171 Semarang 50147. Telepon (024) 7614752 Fax (024) 7614701 Email bksda_jateng@yahoo.co.id</p>
+        <hr style="border: 2px solid black;">
+    </div>
+    
+    <div class="content">
+        <h3 class="page-header">SURAT IZIN MASUK KAWASAN KONSERVASI (SIMAKSI)*</h3>
+        <p class="page-header">Nomor: S. 577/K.21/TU/KSA.4.2/B/3/2025</p>
+
+        [cite_start]<p style="margin-top: 30px;">[cite: 9] Dengan ini memberikan izin masuk kawasan konservasi kepada</p>
+        
+        <table class="details" style="width: 100%;">
+            <tr>
+                <th style="width: 20%;">Nama</th>
+                <td>: sulis</td>
+            </tr>
+            <tr>
+                <th>Untuk</th>
+                <td>: wdw di Kawasan Suaka Margasatwa Dataran Tinggi Dieng</td>
+            </tr>
+            <tr>
+                <th>Waktu</th>
+                <td>: 2025-08-30</td>
+            </tr>
+            <tr>
+                <th>Pengikut</th>
+                <td>: 0 orang</td>
+            </tr>
+        </table>
+        
+        [cite_start]<p style="margin-top: 20px;">[cite: 17] Dengan ketentuan:</p>
+        <div class="conditions">
+            <ol>
+                [cite_start]<li>[cite: 18] Sebelum memasuki kawasan wajib melapor kepada petugas Balai KSDA setempat.</li>
+                [cite_start]<li>[cite: 19] Didampingi petugas Balai KSDA setempat dengan beban tanggung jawab dari pemegang SIMAKSI ini.</li>
+                [cite_start]<li>[cite: 22] Segala resiko yang terjadi dan timbul selama berada di lokasi sebagai akibat kegiatan yang dilaksanakan menjadi tanggung jawab pemegang SIMAKSI ini.</li>
+                [cite_start]<li>[cite: 25] Mematuhi ketentuan peraturan perundang-undangan yang berlaku.</li>
+                [cite_start]<li>[cite: 26] SIMAKSI ini berlaku setelah pemohon membubuhkan materai Rp. 10.000 (sepuluh ribu rupiah) dan menandatanganinya.</li>
+            </ol>
+        </div>
+        
+        [cite_start]<p style="margin-top: 30px;">[cite: 27] Demikian surat izin masuk kawasan konservasi ini dibuat untuk dipergunakan sebagaimana mestinya.</p>
+
+        <div class="signature-area">
+            <div class="left-sign">
+                [cite_start]<p>[cite: 28] Pemegang SIMAKSI</p>
+                <div class="meterai">
+                    [cite_start]<p style="margin-top: 0;">[cite: 30] METERAI</p>
+                    [cite_start]<p style="margin-top: 0;">[cite: 30] TEMPEL</p>
+                </div>
+                [cite_start]<p style="margin-top: 20px;"><strong>[cite: 32] sulis</strong></p>
+            </div>
+            <div class="right-sign">
+                [cite_start]<p>[cite: 33] Dikeluarkan di: Semarang<br>Pada Tanggal: 12 Maret 2025</p>
+                [cite_start]<p style="margin-top: 0;">[cite: 34] Kepala Balai KSDA Jawa Tengah</p>
+                <img src="../img/ttd_darmanto.png" alt="Tanda Tangan Kepala Balai" style="width: 150px; height: auto;">
+                [cite_start]<p style="margin-top: 10px;"><strong>[cite: 38] Darmanto, S.P., M.AP</strong></p>
+                [cite_start]<p style="margin-top: -15px;">[cite: 37] NIP. 197103172000031004</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>

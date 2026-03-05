@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Surat Izin Masuk Kawasan Konservasi</title>
+    <style>
+        body { 
+            font-family: 'Arial', sans-serif; 
+            line-height: 1.6; 
+            font-size: 11pt; 
+            margin: 50px; 
+        }
+        .header { 
+            text-align: center; 
+            margin-bottom: 20px;
+        }
+        .header p {
+            margin: 0;
+            font-size: 11pt;
+        }
+        .header .sub-info {
+            font-size: 9pt;
+            margin-top: 5px;
+        }
+        .header hr {
+            border: 1px solid black;
+            margin-top: 5px;
+        }
+        .content { 
+            margin-top: 20px; 
+        }
+        .content p { 
+            text-align: justify;
+            margin-bottom: 10px; 
+        }
+        .details-table {
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .details-table td {
+            vertical-align: top;
+            padding: 2px 0;
+        }
+        .conditions ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .conditions li {
+            margin-bottom: 5px;
+            text-align: justify;
+        }
+        .signature-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .signature-block {
+            width: 45%;
+        }
+        .signature-left {
+            text-align: center;
+        }
+        .signature-right {
+            text-align: center;
+        }
+        .meterai {
+            border: 1px solid black;
+            padding: 20px;
+            width: 100px;
+            height: 50px;
+            margin: 10px auto;
+            text-align: center;
+            font-size: 8pt;
+        }
+        .seal-signature {
+            position: relative;
+            margin-top: -20px;
+        }
+        .seal-signature img {
+            max-width: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <p><strong>KEMENTERIAN LINGKUNGAN HIDUP DAN KEHUTANAN</strong></p>
+        <p><strong>DIREKTORAT JENDERAL KONSERVASI SUMBER DAYA ALAM DAN EKOSISTEM</strong></p>
+        <p><strong>BALAI KONSERVASI SUMBER DAYA ALAM JAWA TENGAH</strong></p>
+        <p class="sub-info">Jl. Dr. Suratmo No. 171 Semarang 50147. Telepon (024) 7614752 Fax (024) 7614701 Email bksda_jateng@yahoo.co.id</p>
+        <hr>
+    </div>
+    
+    <div class="content">
+        <h3 style="text-align: center; margin-bottom: 0;">SURAT IZIN MASUK KAWASAN KONSERVASI (SIMAKSI)*</h3>
+        <p style="text-align: center; margin-top: 5px;">Nomor: S. 577/K.21/TU/KSA.4.2/B/3/2025</p>
+
+        <p style="margin-top: 30px;"> Dengan ini memberikan izin masuk kawasan konservasi kepada</p>
+        
+        <table class="details-table">
+            <tr>
+                <td style="width: 25%;">Nama</td>
+                <td style="width: 2%;">:</td>
+                <td>sulis</td>
+            </tr>
+            <tr>
+                <td style="width: 25%;">Untuk</td>
+                <td style="width: 2%;">:</td>
+                <td>dww di Kawasan Taman Nasional Gunung Ciremai</td>
+            </tr>
+            <tr>
+                <td style="width: 25%;">Waktu</td>
+                <td style="width: 2%;">:</td>
+                <td>2025-08-22 s/d 2025-08-22</td>
+            </tr>
+            <tr>
+                <td style="width: 25%;">Pengikut</td>
+                <td style="width: 2%;">:</td>
+                <td>0 orang</td>
+            </tr>
+        </table>
+        
+        <p style="margin-top: 20px;"> Dengan ketentuan:</p>
+        <div class="conditions">
+            <ol>
+                [cite_start]<li>Sebelum memasuki kawasan wajib melapor kepada petugas Balai KSDA setempat. [cite: 18]</li>
+                [cite_start]<li>Didampingi petugas Balai KSDA setempat dengan beban tanggung jawab dari pemegang SIMAKSI ini. [cite: 19]</li>
+                [cite_start]<li>Menyerahkan kepada Balai Konservasi Sumber Daya Alam Jawa Tengah Copy laporan tertulis hasil kegiatan. [cite: 20]</li>
+                [cite_start]<li>Mempresentasikan hasil penelitian di Balai KSDA Jawa Tengah. [cite: 21]</li>
+                [cite_start]<li>Segala resiko yang terjadi selama berada di lokasi menjadi tanggung jawab pemegang SIMAKSI ini. [cite: 22]</li>
+                [cite_start]<li>Komersialisasi hasil kegiatan penelitian harus seizin instansi yang berwenang. [cite: 23]</li>
+                [cite_start]<li>Mematuhi ketentuan peraturan perundang-undangan yang berlaku. [cite: 25]</li>
+                <li>SIMAKSI ini berlaku setelah pemohon membubuhkan materai Rp. [cite_start]10.000 dan menandatanganinya. [cite: 26]</li>
+            </ol>
+        </div>
+        
+        [cite_start]<p style="margin-top: 30px;"> Demikian surat izin masuk kawasan konservasi ini dibuat untuk dipergunakan sebagaimana mestinya. [cite: 27]</p>
+
+        <table class="signature-container" style="width: 100%;">
+            <tr>
+                <td class="signature-block signature-left">
+                    <p style="margin-bottom: 0;">Pemegang SIMAKSI</p>
+                    <div class="meterai">
+                        <p style="margin-top: 0; margin-bottom: 0;">METERAI</p>
+                        <p style="margin-top: 0; margin-bottom: 0;">TEMPEL</p>
+                    </div>
+                    <p style="margin-top: 30px;"><strong>sulis</strong></p>
+                </td>
+                <td class="signature-block signature-right">
+                    <p style="margin-bottom: 0;">Dikeluarkan di: Semarang</p>
+                    <p style="margin-top: 0; margin-bottom: 0;">Pada Tanggal: 12 Maret 2025</p>
+                    <p style="margin-top: 15px; margin-bottom: 0;">Kepala Balai KSDA Jawa Tengah</p>
+                    <div class="seal-signature">
+                        <img src="https://i.imgur.com/G5Kq03E.png" alt="Tanda Tangan Kepala Balai" />
+                    </div>
+                    <p style="margin-top: -15px; margin-bottom: 0;"><strong>Darmanto, S.P., M.AP</strong></p>
+                    <p style="margin-top: 0; margin-bottom: 0;">NIP. 197103172000031004</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

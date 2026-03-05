@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pendaftaran Berhasil</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { width: 800px; margin: 0 auto; padding: 20px; }
+        .card { border: 1px solid #ccc; padding: 30px; border-radius: 8px; }
+        h1, h2 { text-align: center; }
+        .logo { text-align: center; margin-bottom: 20px; }
+        .table-bordered { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        .table-bordered th, .table-bordered td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        .table-bordered th { background-color: #f2f2f2; }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <h2>Balai Konservasi Sumber Daya Alam</h2>
+            <h3>Pendaftaran SIMAKSI</h3>
+        </div>
+        <div class="card">
+            <h1>Pendaftaran Berhasil!</h1>
+            <p>Terima kasih, data Anda telah kami simpan. Berikut adalah detail pendaftaran Anda:</p>
+            
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr><th>Nama Lengkap</th><td>sulis</td></tr><tr><th>Nomor Identitas</th><td>123123</td></tr><tr><th>Email</th><td>limarga3012@gmail.com</td></tr><tr><th>Nomor Telepon</th><td>18928739127</td></tr><tr><th>Tanggal Kegiatan</th><td>2025-08-30</td></tr><tr><th>Lokasi Konservasi</th><td>Taman Nasional Gunung Ciremai</td></tr><tr><th>Tujuan Kegiatan</th><td>gu</td></tr>                    </tbody>
+                </table>
+            </div>
+            
+            <p style="text-align: center; margin-top: 30px;">Dokumen ini merupakan konfirmasi pendaftaran. Mohon simpan sebagai bukti pengajuan.</p>
+        </div>
+    </div>
+</body>
+</html>
