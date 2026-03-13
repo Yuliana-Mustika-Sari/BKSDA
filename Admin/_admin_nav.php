@@ -206,6 +206,11 @@ function _navClass($file) {
                     </a>
                 </li>
                 <li class="nav-item mb-2">
+                    <a class="nav-link <?= _navClass('kelola-peraturan') ?> rounded py-2 px-3" href="kelola-peraturan.php">
+                        <i class="fas fa-file-contract me-2"></i>Kelola Peraturan
+                    </a>
+                </li>
+                <li class="nav-item mb-2">
                     <a class="nav-link <?= _navClass('kelola-pengguna') ?> rounded py-2 px-3" href="kelola-pengguna.php">
                         <i class="fas fa-users me-2"></i>Kelola Pengguna
                     </a>

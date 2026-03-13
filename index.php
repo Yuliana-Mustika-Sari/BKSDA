@@ -236,6 +236,7 @@ if (file_exists($db_path)) {
                                 <a href="user/kawasan_hutan.php" class="dropdown-item">Kawasan Konservasi</a>
                                 <a href="user/perlindungan.php" class="dropdown-item">Perlindungan</a>
                                 <a href="user/pemberdayaan-masyarakat.php" class="dropdown-item">Pemberdayaan Masyarakat</a>
+                                <a href="user/peraturan.php" class="dropdown-item">Peraturan</a>
                             </div>
                         </div>
                         <a href="User/contact.php" class="nav-item nav-link">Contact</a>

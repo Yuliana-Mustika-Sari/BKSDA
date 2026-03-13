@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 05, 2026 at 12:24 PM
+-- Generation Time: Mar 13, 2026 at 02:39 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.3.9
 
@@ -53,15 +53,15 @@ INSERT INTO `aduan` (`id`, `nama`, `email`, `telepon`, `subjek`, `pesan`, `creat
 
 CREATE TABLE `galleries` (
   `id` int NOT NULL,
-  `title` varchar(255) NOT NULL,
-  `description` text,
-  `peraturan` text,
-  `image_url` varchar(255) NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `description` text COLLATE utf8mb4_general_ci,
+  `peraturan` text COLLATE utf8mb4_general_ci,
+  `image_url` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
   `created_by` int DEFAULT NULL,
   `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `status` enum('published','draft') NOT NULL DEFAULT 'published'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `status` enum('published','draft') COLLATE utf8mb4_general_ci NOT NULL DEFAULT 'published'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `galleries`
@@ -99,6 +99,40 @@ CREATE TABLE `konflik_satwa` (
 INSERT INTO `konflik_satwa` (`id`, `nomor_registrasi`, `nama_pelapor`, `email_pelapor`, `telepon_pelapor`, `tanggal_kejadian`, `lokasi_deskripsi`, `jenis_satwa`, `deskripsi_kejadian`, `url_dokumentasi`, `status_kasus`, `tanggal_laporan`) VALUES
 (2, 'K-20260302-64B4', 'lorem', 'loremipsum@sms.as', '013842098', '2026-03-03', 'adalah', 'Ular', 'lorem ipsum', 'uploads/konflik/African_Bush_Elephant.jpg', 'Selesai', '2026-03-03 02:30:09'),
 (5, 'K-20260303-0CD4', 'Lorem', 'officer1@parking.com', '0922211111', '2026-03-03', 'Semarang', 'Ular', 'Lorem Ipsum', 'uploads/konflik/African_Bush_Elephant.jpg', 'Selesai', '2026-03-03 17:29:24');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `peraturan`
+--
+
+CREATE TABLE `peraturan` (
+  `id` int NOT NULL,
+  `judul` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  `nomor` varchar(100) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `tahun` year DEFAULT NULL,
+  `jenis` varchar(100) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `instansi_penerbit` varchar(150) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `tanggal` date DEFAULT NULL,
+  `ringkasan` text COLLATE utf8mb4_general_ci NOT NULL,
+  `isi_teks` longtext COLLATE utf8mb4_general_ci,
+  `file_path` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `url_sumber` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `bahasa` varchar(10) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `lingkup` varchar(150) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `tags` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `status` varchar(20) COLLATE utf8mb4_general_ci DEFAULT 'published',
+  `related_gallery_id` int DEFAULT NULL,
+  `created_by` int DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `peraturan`
+--
+
+INSERT INTO `peraturan` (`id`, `judul`, `nomor`, `tahun`, `jenis`, `instansi_penerbit`, `tanggal`, `ringkasan`, `isi_teks`, `file_path`, `url_sumber`, `bahasa`, `lingkup`, `tags`, `status`, `related_gallery_id`, `created_by`, `created_at`) VALUES
+(4, 'Peraturan Menteri Lingkungan Hidup dan Kehutanan Nomor 8 Tahun 2021 tentang Tata Hutan dan Penyusunan Rencana Pengelolaan Hutan', '8', 2021, 'Peraturan Menteri', 'Kementerian Lingkungan Hidup dan Kehutanan', '2021-04-01', 'Mengatur tata hutan, penyusunan rencana pengelolaan hutan serta pemanfaatan hutan di kawasan hutan lindung dan hutan produksi.', '', NULL, 'https://peraturan.bpk.go.id/Details/235254/pe', 'ID', 'pengelolaan hutan', 'hutan,lindung,produksi', 'published', NULL, NULL, '2026-03-13 14:33:13');
 
 -- --------------------------------------------------------
 
@@ -191,6 +225,12 @@ ALTER TABLE `konflik_satwa`
   ADD UNIQUE KEY `nomor_registrasi` (`nomor_registrasi`);
 
 --
+-- Indexes for table `peraturan`
+--
+ALTER TABLE `peraturan`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `tindak_lanjut_konflik`
 --
 ALTER TABLE `tindak_lanjut_konflik`
@@ -231,6 +271,12 @@ ALTER TABLE `galleries`
 --
 ALTER TABLE `konflik_satwa`
   MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `peraturan`
+--
+ALTER TABLE `peraturan`
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `tindak_lanjut_konflik`
